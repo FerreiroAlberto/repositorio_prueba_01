@@ -3,12 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formato de texto</title>
+    <title>ENLACES E IMÁGENES</title>
 </head>
-<body>
-<header>
-    <img src="https://aulavirtualvipper.com/web/css/themes/silver_line/images/header-logo-custom1.png" alt="logo de Vipper">
-</header>
 <style>
     body {
         font-family: 'Arial', sans-serif;
@@ -16,17 +12,6 @@
         padding: 0;
         background-color: #f4f4f4;
         color: #333;
-    }
-
-    header {
-        background-color: moccasin;
-        text-align: center;
-        padding: 20px;
-    }
-
-    header img {
-        max-width: 100%;
-        height: auto;
     }
 
     h1 {
@@ -97,46 +82,40 @@
     dd {
         margin: 5px 0 10px 20px;
     }
+    img{
+        margin: 5px;
+    }
 </style>
-<h1>Formato de texto</h1>
-<h2>Párrafo de Lorem</h2>
-<p>Lorem ipsum dolor sit amet.
-Magni, impedit! Quasi, ducimus natus!
-Qui autem molestiae eum molestias?
-Eveniet ipsam deserunt consequuntur nulla.
-Sint officia magnam cumque consequuntur.</p>
-<br>
-<h2>Listas</h2>
-<h3>Listas no ordenadas</h3>
-
-<ul type="disc">
-<li>Lunes</li>
-<li>Martes</li>
-<li>Miércoles</li>
-<li>Jueves</li>
-<li>Viernes</li>
-</ul>
-
-<h3>Listas ordenadas</h3>
-
-<ol type="I" start="10">
-    <li>Primavera</li>
-    <li>Verano</li>
-    <li>Otoño</li>
-    <li>Invierno</li>
-</ol>
-
-<h3>Listas de definición</h3>
-
-<dl>
-<dt>CSS</dt>
-<dd>Hojas de estilo</dd>
-<dt>HTML</dt>
-<dd>Lenguaje de marcas</dd>
-</dl>
-
-<a href="enlaces_imagenes.html">Ir a imágenes y enlaces</a>
+<body>
+    <a name="inicio"></a>
+    <h1>Imágenes y enlaces</h1>
+    <h2>Enlaces</h2>
+    <ol>
+        <li>Enlace externo</li>
+        <li>Enlace al mismo proyecto</li>
+        <li>Enlace a la misma página</li>
+        <li>Enlace a un mail</li>
+    </ol>
+    <h3>Enlace externo</h3>
+    <a href="https://github.com" target="_blank">Ir a GitHub</a>
+    <h3>Enlaces al mismo proyecto</h3>
+    <a href="etiquetas_texto_02.html">Etiquetas de texto</a>
+    <h3>Enlaces a la misma página</h3>
+    <a href="enlaces_imagenes.html#inicio">Volver al inicio</a>
+    <h3>Enlace a un mail</h3>
+    <a href="mailto:formacion@vippersistemas.com">Envíanos un comentario</a>
+    <br>
+    <hr>
+    <h2>Imágenes</h2>
+    <img src="imagenes/images.png" alt="html logo" width="150px">
+    <br>
+    <img src="https://ralfvanveen.com/wp-content/uploads/2021/06/CSS-_-Begrippenlijst.svg" alt="css logo" width="150px">
+    <br>
+    <hr>
+    <a href="https://es.wikipedia.org/wiki/SQL" target="_blank">
+        <img src="imagenes/Sql_data_base_with_logo.svg.png" alt="sql logo" width="200">
+    </a>
+    
 
 </body>
 </html>
-
